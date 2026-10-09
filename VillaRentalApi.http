@@ -1,0 +1,16 @@
+@VillaRentalApi_HostAddress = http://localhost:5214
+
+GET {{VillaRentalApi_HostAddress}}/api/villa
+Accept: application/json
+
+###
+
+GET {{VillaRentalApi_HostAddress}}/api/villa/1
+Accept: application/json
+
+###
+
+GET {{VillaRentalApi_HostAddress}}/api/villa/1/sea-view
+Accept: application/json
+
+###
